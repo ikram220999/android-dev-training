@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jambu Rock</string>
+    <string name="form_title">STUDENT REGISTRATION FORM</string>
+    <string-array name="courseList">
+        <item>Kambing</item>
+        <item>Ayam</item>
+        <item>Unta</item>
+    </string-array>
+</resources>
