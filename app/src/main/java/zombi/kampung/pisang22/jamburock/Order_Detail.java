@@ -6,15 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.text.DecimalFormat;
 
 public class Order_Detail extends AppCompatActivity implements View.OnClickListener {
 
     TextView tvOrder;
-    Button btnOrderAgain, btnMainMenu;
-
+    Button btnOrderAgain, btnMainMenu, btnRating;
+    RatingBar rtRating;
     McDonny myOrder;
 
     @Override
@@ -25,9 +27,12 @@ public class Order_Detail extends AppCompatActivity implements View.OnClickListe
         tvOrder = findViewById(R.id.tvOrder);
         btnOrderAgain = findViewById(R.id.btnOrderAgain);
         btnMainMenu = findViewById(R.id.btnMainMenu);
+        btnRating = findViewById(R.id.btnRating);
+        rtRating = findViewById(R.id.rtRating);
 
         btnOrderAgain.setOnClickListener(this);
         btnMainMenu.setOnClickListener(this);
+        btnRating.setOnClickListener(this);
 
         myOrder = (McDonny) getIntent().getSerializableExtra("kunci");
 
@@ -63,12 +68,22 @@ public class Order_Detail extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             case R.id.btnOrderAgain:
                 myIntent = new Intent(this, List_menu.class);
+                startActivity(myIntent);
                 break;
             case R.id.btnMainMenu:
                 myIntent = new Intent(this, Main_Menu.class);
+                startActivity(myIntent);
+                break;
+            case R.id.btnRating:
+
+                //get rating value
+                String strRating = String.valueOf(rtRating.getRating());
+
+                // display the rating value in toast
+                Toast.makeText(this, strRating, Toast.LENGTH_SHORT).show();
                 break;
         }
 
-        startActivity(myIntent);
+
     }
 }

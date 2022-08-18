@@ -14,6 +14,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".Day4_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Day4_SnackBar"
+            android:exported="false" />
+        <activity
+            android:name=".Day4_ProgressBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Day4_webview"
             android:exported="false" />
         <activity

@@ -46,7 +46,7 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="468dp"
+        android:layout_marginTop="332dp"
         android:backgroundTint="#FFC107"
         android:text="order again"
         android:textColor="#0C0C0C"
@@ -60,13 +60,37 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="536dp"
+        android:layout_marginTop="404dp"
         android:backgroundTint="#FFC107"
         android:text="main menu"
         android:textColor="#0C0C0C"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <RatingBar
+        android:id="@+id/rtRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMainMenu" />
+
+    <Button
+        android:id="@+id/btnRating"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FDFDFD"
+        android:text="rate us"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rtRating" />
 </androidx.constraintlayout.widget.ConstraintLayout>

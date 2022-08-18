@@ -13,7 +13,7 @@ import android.widget.Toast;
 public class List_Activity extends ListActivity {
 
     //create an array to hold all activity name/classname
-    String[] activityName = {"Day1_Widgets", "Day2_Intent", "Day2_Alert_Dialog", "Activity_One", "Main_Menu", "Day3_Date_Time", "Day4_webview"
+    String[] activityName = {"Day1_Widgets", "Day2_Intent", "Day2_Alert_Dialog", "Activity_One", "Main_Menu", "Day3_Date_Time", "Day4_webview", "Day4_SnackBar", "Day4_Menu"
             };
 
     //activityName[0] = "Day1_Widgets

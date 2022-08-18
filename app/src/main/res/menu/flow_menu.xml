@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/up"
+        android:title="Up"
+        android:orderInCategory="1"
+        android:icon="@android:drawable/arrow_up_float"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/down"
+        android:title="Down"
+        android:orderInCategory="2"
+        android:icon="@android:drawable/arrow_down_float"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/other"
+        android:title="Other"
+        android:orderInCategory="3"
+        android:icon="@android:drawable/arrow_down_float"
+        app:showAsAction="ifRoom"/>
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/red"
+            android:title="Red"
+            />
+        <item android:id="@+id/green"
+            android:title="Green"/>
+    </group>
+</menu>
