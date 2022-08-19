@@ -36,10 +36,10 @@
         android:layout_width="363dp"
         android:layout_height="293dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="96dp"
         android:layout_marginRight="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -81,13 +81,12 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="500dp"
         android:backgroundTint="#FFC107"
         android:text="choose add ons"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -101,4 +100,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/celaka" />
+
+    <SeekBar
+        android:id="@+id/sbSize"
+        android:layout_width="262dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#FFC107"
+        android:indeterminateTint="#FFC107"
+        android:max="2"
+        android:progressTint="#FFC107"
+        android:thumbTint="#FFC107"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgSize" />
+
+    <TextView
+        android:id="@+id/tvSeekSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/sbSize"
+        app:layout_constraintStart_toStartOf="@+id/sbSize"
+        app:layout_constraintTop_toBottomOf="@+id/sbSize" />
 </androidx.constraintlayout.widget.ConstraintLayout>

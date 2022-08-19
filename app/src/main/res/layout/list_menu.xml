@@ -7,6 +7,17 @@
     android:background="#DA291C"
     tools:context=".List_menu">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="104dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/celaka" />
+
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
@@ -16,7 +27,7 @@
         android:textColor="#FFFFFF"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,7 +46,7 @@
         android:layout_width="350dp"
         android:layout_height="327dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="80dp"
         android:layout_marginRight="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -84,7 +95,7 @@
         android:id="@+id/etQuantity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="444dp"
+        android:layout_marginTop="420dp"
         android:backgroundTint="#FFFFFF"
         android:ems="10"
         android:hint="Enter quantity"
@@ -100,7 +111,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="456dp"
+        android:layout_marginTop="432dp"
         android:text="Quantity"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
@@ -112,7 +123,7 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="560dp"
+        android:layout_marginTop="508dp"
         android:layout_marginRight="16dp"
         android:backgroundTint="#FFC107"
         android:text="choose combo size"
