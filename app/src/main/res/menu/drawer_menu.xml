@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Inbox">
+            <menu>
+                <group>
+                    <item android:id="@+id/sent_mail" android:title="Sent Mail"></item>
+                    <item android:id="@+id/outbox" android:title="Outbox"></item>
+                    <item android:id="@+id/spam_mail" android:title="Spam Mail"></item>
+                </group>
+
+                    <group android:checkableBehavior="single">
+                        <item android:id="@+id/calendar2"
+                            android:title="Calendar"
+                            android:icon="@drawable/ic_baseline_calendar_today_24" />
+                        <item android:id="@+id/contact2" android:title="Contact"
+                            android:icon="@drawable/ic_baseline_contacts_24"></item>
+                        <item android:id="@+id/setting2" android:title="Setting"
+                            android:icon="@drawable/ic_baseline_settings_24"></item>
+                    </group>
+
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

@@ -8,4 +8,34 @@
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="array_title">
+        <item>item 1</item>
+        <item>item 2</item>
+        <item>item 3</item>
+        <item>item 4</item>
+        <item>item 5</item>
+        <item>item 6</item>
+        <item>item 7</item>
+        <item>item 8</item>
+        <item>item 9</item>
+        <item>item 10</item>
+    </string-array>
+
+    <string-array name="array_description">
+        <item>abu</item>
+        <item>ali</item>
+        <item>ahmad</item>
+        <item>ah chong</item>
+        <item>aminah</item>
+        <item>maimunah</item>
+        <item>amin</item>
+        <item>fakrul</item>
+        <item>unta</item>
+        <item>kambing</item>
+    </string-array>
+
+<!--    string for toggle button drawer layout -->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
 </resources>

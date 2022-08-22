@@ -7,20 +7,21 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 public class ViewPagerAdapter extends FragmentStateAdapter {
 
-    // create array for fragment title
+    //create array for fragment title
     String[] fragment_title = {"Fragment 1", "Fragment 2", "Fragment 3"};
 
-    // constructor
+    //constructor
     public ViewPagerAdapter(@NonNull FragmentActivity fragmentActivity) {
         super(fragmentActivity);
     }
 
+
+    //create fragment
     @NonNull
     @Override
     public Fragment createFragment(int position) {
-        switch (position) {
+        switch (position){
             case 0:
-            // masukkan fragment 1
                 return new Fragment_1();
             case 1:
                 return new Fragment_2();
@@ -32,6 +33,6 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
 
     @Override
     public int getItemCount() {
-        return 0;
+        return fragment_title.length;
     }
 }

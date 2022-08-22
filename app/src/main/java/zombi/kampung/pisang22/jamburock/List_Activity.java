@@ -15,7 +15,8 @@ public class List_Activity extends ListActivity {
     //create an array to hold all activity name/classname
     String[] activityName = {"Day1_Widgets", "Day2_Intent", "Day2_Alert_Dialog", "Activity_One",
             "Main_Menu", "Day3_Date_Time", "Day4_webview", "Day4_SnackBar", "Day4_Menu",
-            "Day5_Seekbar", "Day5_VideoView", "Day5_Fragment"
+            "Day5_Seekbar", "Day5_VideoView", "Day5_Fragment", "Day6_RecyclerView", "Day6_Bottom_Appbar",
+            "Day6_Drawer"
             };
 
     //activityName[0] = "Day1_Widgets

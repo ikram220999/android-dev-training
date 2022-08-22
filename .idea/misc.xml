@@ -20,14 +20,23 @@
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/day5_fragment.xml" value="0.35054347826086957" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/day5_seekbar.xml" value="0.35054347826086957" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/day5_video_view.xml" value="0.264" />
+        <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/day6_bottom_appbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/day6_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/day6_recycler_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/day6_recyclerview.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/description.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/fragment_1.xml" value="0.264" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/fragment_2.xml" value="0.35054347826086957" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/fragment_3.xml" value="0.35054347826086957" />
+        <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/header_layout.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/list_menu.xml" value="0.536" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/main_menu.xml" value="0.33" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/order_detail.xml" value="0.536" />
+        <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/recyclerview_main_layout.xml" value="0.264" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/layout/size_menu.xml" value="0.33" />
+        <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/menu/bottom_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/menu/context_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/menu/drawer_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/menu/flow_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ikram/AndroidStudioProjects/JambuRock/app/src/main/res/menu/pop_up_menu.xml" value="0.36666666666666664" />
       </map>

@@ -12,7 +12,19 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/icon_saya_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        android:theme="@style/Theme.JambuRock">
+        <activity
+            android:name=".Day6_Drawer"
+            android:exported="false" />
+        <activity
+            android:name=".Day6_Bottom_Appbar"
+            android:exported="false" />
+        <activity
+            android:name=".Description"
+            android:exported="false" />
+        <activity
+            android:name=".Day6_RecyclerView"
+            android:exported="false" />
         <activity
             android:name=".Day5_Fragment"
             android:exported="false" />

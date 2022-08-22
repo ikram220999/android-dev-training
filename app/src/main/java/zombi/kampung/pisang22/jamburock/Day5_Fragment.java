@@ -20,7 +20,7 @@ public class Day5_Fragment extends AppCompatActivity {
         setContentView(R.layout.day5_fragment);
 
         view_pager = findViewById(R.id.view_pager);
-        tabLayout = findViewById(R.id.tab_layout);
+        tabLayout = findViewById(R.id.tabLayout);
 
         // initialize adapter object
         adapter = new ViewPagerAdapter(this);
