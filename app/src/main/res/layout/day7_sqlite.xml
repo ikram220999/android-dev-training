@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Day7_SQLite"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etNameSql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPhoneSql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter phone no"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnInsertSql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert data" />
+
+    <Button
+        android:id="@+id/btnViewSql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get all data" />
+
+    <EditText
+        android:id="@+id/etIdSql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter id"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnDeleteSql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/btnGetDataSql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get Data" />
+
+    <Button
+        android:id="@+id/btnEditSql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="edi and save" />
+</LinearLayout>

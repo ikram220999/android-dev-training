@@ -35,7 +35,7 @@
         <item>kambing</item>
     </string-array>
 
-<!--    string for toggle button drawer layout -->
+    <!--    string for toggle button drawer layout -->
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
 </resources>

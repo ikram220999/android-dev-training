@@ -39,7 +39,7 @@ public class Day6_Drawer extends AppCompatActivity {
 
         // to create back button to return to home when toggle btn is clicked
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // set listener for nav view to make the menu item functioning
 
@@ -98,11 +98,11 @@ public class Day6_Drawer extends AppCompatActivity {
 
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (togglebtn.onOptionsItemSelected()) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+////        if (togglebtn.onOptionsItemSelected()) {
+////            return true;
+////        }
+////        return super.onOptionsItemSelected(item);
+//    }
 }
